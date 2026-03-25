@@ -1,0 +1,76 @@
+/* ===============================
+   DESKTOP (1920px and above)
+================================= */
+@media (min-width: 1920px) {
+    .card {
+        max-width: 500px;
+        margin: auto;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+}
+
+/* ===============================
+   LAPTOP (1366px - 1919px)
+================================= */
+@media (max-width: 1919px) and (min-width: 1366px) {
+    .card {
+        max-width: 420px;
+        margin: auto;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+}
+
+/* ===============================
+   TABLET (768px - 1024px)
+================================= */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .card {
+        max-width: 350px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .form-control {
+        font-size: 15px;
+    }
+}
+
+/* ===============================
+   MOBILE (320px - 767px)
+================================= */
+@media (max-width: 767px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px;
+        padding: 15px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .form-control {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
