@@ -1,0 +1,91 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Form Inputs */
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.form-control:focus {
+    border-color: #4facfe;
+    box-shadow: 0 0 8px rgba(79, 172, 254, 0.5);
+}
+
+/* Buttons */
+.btn-custom {
+    background-color: #4facfe;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #007bff;
+    transform: scale(1.05);
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #4facfe;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+    background: #4facfe;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        margin: 20px;
+    }
+}
+
+/* Extra Spacing */
+.mt-20 {
+    margin-top: 20px;
+}
