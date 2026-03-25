@@ -1,0 +1,80 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    margin: 0;
+}
+
+/* Card */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Form Inputs */
+.form-control {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Input Focus */
+.form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102,126,234,0.5);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #667eea;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #5a67d8;
+    transform: scale(1.05);
+}
+
+/* Links */
+a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #667eea;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+/* Dashboard */
+.dashboard-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Password Icon */
+.password-toggle {
+    position: absolute;
+    right: 15px;
+    top: 38px;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card {
+        margin: 10px;
+    }
+}
